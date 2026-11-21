@@ -1,0 +1,14 @@
+# Vivado generated files
+*.jou
+*.log
+*.str
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+
+# Proteus backup files
+*.pdsbak
+*Last Loaded*
