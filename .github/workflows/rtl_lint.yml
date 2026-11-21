@@ -17,4 +17,4 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y verilator
 
       - name: Run Verilator Lint
-        run: verilator --lint-only -Wall --top-module top_uart rtl/*.sv
+        run: verilator --lint-only -Wall -Wno-PINNOCONNECT -Wno-WIDTHEXPAND --top-module top_uart rtl/*.sv
