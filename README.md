@@ -7,6 +7,8 @@ This repository implements a **UART (9600 bps, 8N1) receiver and 2-digit Hexadec
 1. **Discrete Hardware Architecture (MCU-Free Custom PCB):** Built using 74HC-series logic ICs, a 2.4576 MHz Pierce crystal oscillator, a CH340N USB-to-UART bridge, and an AT28C16 parallel EEPROM configured as a 512-byte Look-Up Table (LUT).
 2. **FPGA RTL Architecture (SystemVerilog):** Synthesizable SystemVerilog modules implementing a 2-FF synchronized UART receiver, a 1-byte buffered UART loopback transmitter, and a multiplexed Common-Anode 7-segment driver on the Digilent Nexys A7-100T board.
 
+![3D PCB Render](docs/PCB_review.png)
+
 ---
 
 ## Repository Structure
